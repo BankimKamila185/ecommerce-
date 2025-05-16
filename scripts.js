@@ -309,8 +309,8 @@ function initWatchBrandFeature() {
             model: "Submariner",
             description: "The Rolex Submariner is a classic dive watch known for its durability, precision, and timeless design.",
             price: "₹895,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/Rolex-Cosmograph-Daytona-M126508-0008.jpg",
-            logo: "/Users/bankimkamila/html/ecommer/media/image/rolex-logo-preview.png"
+            img: "media/image/Rolex-Cosmograph-Daytona-M126508-0008.jpg",
+            logo: "media/image/rolex-logo-preview.png"
         },
         {
             id: 2,
@@ -318,8 +318,8 @@ function initWatchBrandFeature() {
             model: "Seamaster",
             description: "The Omega Seamaster combines elegant styling with robust performance and innovative technology.",
             price: "₹650,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/OMEGA-Speedmaster-Moonwatch-Professional-Chronograph-06.jpg",
-            logo: "/Users/bankimkamila/html/ecommer/media/image/omega-logo_brandlogos.net_teruv-768x384.png"
+            img: "media/image/OMEGA-Speedmaster-Moonwatch-Professional-Chronograph-06.jpg",
+            logo: "media/image/omega-logo_brandlogos.net_teruv-768x384.png"
         },
         {
             id: 3,
@@ -327,8 +327,8 @@ function initWatchBrandFeature() {
             model: "Carrera",
             description: "The TAG Heuer Carrera is a motorsport-inspired chronograph with a legacy of precision and style.",
             price: "₹410,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/TH_Top_Banner_Carrera-chrono_mobile.jpg",
-            logo: "/Users/bankimkamila/html/ecommer/media/image/tag_heuer-logo-768x768.png"
+            img: "media/image/TH_Top_Banner_Carrera-chrono_mobile.jpg",
+            logo: "media/image/tag_heuer-logo-768x768.png"
         },
         {
             id: 4,
@@ -336,8 +336,8 @@ function initWatchBrandFeature() {
             model: "Nautilus",
             description: "The Patek Philippe Nautilus represents the pinnacle of luxury sports watches with unmatched craftsmanship.",
             price: "₹2,350,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/patek-philippe-5261R-001-rosegold-titlepicture-new-1600x1067.jpg",
-            logo: "/Users/bankimkamila/html/ecommer/media/image/logo.png .png"
+            img: "media/image/patek-philippe-5261R-001-rosegold-titlepicture-new-1600x1067.jpg",
+            logo: "media/image/logo.png .png"
         },
         {
             id: 5,
@@ -345,7 +345,7 @@ function initWatchBrandFeature() {
             model: "Royal Oak",
             description: "The Audemars Piguet Royal Oak revolutionized watch design with its iconic octagonal bezel and integrated bracelet.",
             price: "₹1,895,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/1Z2A6835-2-scaled.png",
+            img: "media/image/1Z2A6835-2-scaled.png",
             logo: "/api/placeholder/100/100?text=AP"
         },
         {
@@ -354,7 +354,7 @@ function initWatchBrandFeature() {
             model: "Black Bay",
             description: "The Tudor Black Bay combines vintage-inspired aesthetics with modern reliability and performance.",
             price: "₹345,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/tudor-black-bay-chrono-flamingo-blue-m79360n-0024-cover.png",
+            img: "media/image/tudor-black-bay-chrono-flamingo-blue-m79360n-0024-cover.png",
             logo: "/api/placeholder/100/100?text=TUDOR"
         },
         {
@@ -363,7 +363,7 @@ function initWatchBrandFeature() {
             model: "Santos",
             description: "The Cartier Santos is an iconic square-faced watch that blends elegance with a spirit of adventure.",
             price: "₹785,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/AS09223_40950246_CARTIER_BAIGNOIRE_WHITE_GOLD-1.png",
+            img: "media/image/AS09223_40950246_CARTIER_BAIGNOIRE_WHITE_GOLD-1.png",
             logo: "/api/placeholder/100/100?text=CARTIER"
         },
         {
@@ -372,7 +372,7 @@ function initWatchBrandFeature() {
             model: "Navitimer",
             description: "The Breitling Navitimer is a pilot's watch with a distinctive slide rule bezel for aviation calculations.",
             price: "₹580,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/BR-Navitimer_B01_Chrono43_UB01384A1B1P1_US_Edition_StillLife_RVB.jpg",
+            img: "media/image/BR-Navitimer_B01_Chrono43_UB01384A1B1P1_US_Edition_StillLife_RVB.jpg",
             logo: "/api/placeholder/100/100?text=BREITLING"
         },
         {
@@ -381,7 +381,7 @@ function initWatchBrandFeature() {
             model: "Reverso",
             description: "The Jaeger-LeCoultre Reverso features a unique reversible case developed for polo players in the 1930s.",
             price: "₹925,000",
-            img: "/Users/bankimkamila/html/ecommer/media/image/jaeger-lecoultre-master-ultra-thin-q114842j-multiple-2.png",
+            img: "media/image/jaeger-lecoultre-master-ultra-thin-q114842j-multiple-2.png",
             logo: "/api/placeholder/100/100?text=JLC"
         }
     ];
