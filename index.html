@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Just In Time - Luxury Watches</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="ecommer/index.html" class="logo">Just In Time</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Product, Brands">
+                <button>🔍</button>
+            </div>
+            <div class="header-icons">
+                <div class="header-icon">👤</div>
+                <div class="header-icon">❤️</div>
+                <div class="header-icon">🛒</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#">Shop by Brand</a></li>
+                <li><a href="men/index.html">Men's Watches</a></li>
+                <li><a href="women/index.html">Women's Watches</a></li>
+                <li><a href="#">Gifting</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Watch Accessories</a></li>
+                <li><a href="#">JIT Boutique</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" id="slide1">
+            <div class="hero-background" style="background-image: url('media/image/banner_hp_dp_2x-2_9bb0e476-a15d-406b-8f03-9878a8eff6ce.png'); background-size: cover; background-position: center;"></div>
+            <div class="container hero-content">
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide" id="slide2">
+            <div class="hero-background" style="background-image: url('media/image/hp_dp_bd64db96-5f89-4445-96bd-014f20340f84.png'); background-size: cover; background-position: center;"></div>
+            <div class="container hero-content">
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide" id="slide3">
+            <div class="hero-background">
+                <video autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+                    <source src="media/video/ef60b1c7785f4c8496a5608a9851e1b7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-heading">Timeless Elegance<br>Since 1875</h1>
+                    <a href="#" class="hero-cta">EXPLORE</a>
+                </div>
+                <div class="hero-product">
+                    <img src="/api/placeholder/400/400" alt="Luxury watch - Audemars Piguet">
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider navigation -->
+        <div class="slider-dots">
+            <div class="dot active" data-slide="1"></div>
+            <div class="dot" data-slide="2"></div>
+            <div class="dot" data-slide="3"></div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="#" class="whatsapp-btn">
+        ✉️
+    </a>
+
+    <!-- Featured Products Slider -->
+<div class="featured-slider-container">
+    <!-- Slides -->
+    <div class="featured-slides">
+        <!-- Slide 1 -->
+        <div class="featured-slide active">
+            <div class="watch-images">
+                <img src="media/image/Featured-blog1.jpg" alt="Watch 1">
+            </div>
+            <div class="text-content">
+                <h4>FEATURED</h4>
+                <h1>BEST PERPETUAL CALENDAR WATCHES</h1>
+                <p>Imagine a world where you never have to adjust your calendar manually. Explore the world of "Perpetual Calendar Watches."</p>
+                <button>EXPLORE</button>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="featured-slide">
+            <div class="watch-images">
+                <img src="media/image/Featured-blog2.jpg" alt="Watch 2">
+            </div>
+            <div class="text-content">
+                <h4>FEATURED</h4>
+                <h1>MODERN AUTOMATIC WATCHES</h1>
+                <p>Discover timeless elegance with our latest automatic watches designed for style and precision.</p>
+                <button>EXPLORE</button>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="featured-slide">
+            <div class="watch-images">
+                <img src="media/image/divers-resized.png" alt="Watch 3">
+            </div>
+            <div class="text-content">
+                <h4>FEATURED</h4>
+                <h1>LUXURY DIVE WATCHES</h1>
+                <p>Explore our collection of premium dive watches that combine superior water resistance with elegant design.</p>
+                <button>EXPLORE</button>
+            </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div class="featured-slide">
+            <div class="watch-images">
+                <img src="media/image/Featured-blog3.jpg" alt="Watch 4">
+            </div>
+            <div class="text-content">
+                <h4>FEATURED</h4>
+                <h1>VINTAGE INSPIRED TIMEPIECES</h1>
+                <p>Classic designs reimagined for the modern era. Experience the charm of vintage watches with contemporary technology.</p>
+                <button>EXPLORE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation dots -->
+    <div class="featured-slider-dots">
+        <div class="featured-dot active" data-slide="1"></div>
+        <div class="featured-dot" data-slide="2"></div>
+        <div class="featured-dot" data-slide="3"></div>
+        <div class="featured-dot" data-slide="4"></div>
+    </div>
+
+    <!-- Navigation arrows -->
+    <div class="featured-nav-arrows">
+        <button class="featured-prev-btn">&#10094;</button>
+        <button class="featured-next-btn">&#10095;</button>
+    </div>
+</div>
+
+    <!-- Arrows
+    <div class="nav-arrows">
+        <label for="slide1">&#10094;</label>
+        <label for="slide2">&#10095;</label>
+      </div>
+    </div> -->
+    <section class="watch-section">
+      <h2>MOST LOVED WATCHES</h2>
+      <div class="gender-tabs">
+        <button class="active" onclick="showCarousel('men')">MEN</button>
+        <button onclick="showCarousel('women')">WOMEN</button>
+      </div>
+  
+      <!-- Men Carousel -->
+      <div class="watch-carousel-container" id="carousel-men">
+        <button class="scroll-btn left" onclick="scrollCarousel('men', -1)">&#10094;</button>
+        <div class="watch-carousel" id="carousel-men-track">
+          <!-- Watch Cards -->
+          <!-- Add your men's watches here -->
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/3/6/3600898_1.jpg"><h3>MOVADO</h3><p>Men | Bold</p><strong>₹74625</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/t/1/t1374101104100_1.jpg"><h3>TISSOT</h3><p>Men | PRX</p><strong>₹39000</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/v/e/vevk00620_1.jpg"><h3>VERSACE</h3><p>Men | VK</p><strong>₹99400</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/s/s/ssc764p1-1800x1800-pixels.jpg"><h3>SEIKO</h3><p>Men | Coutura</p><strong>₹52000</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/t/1/t1154173705100_1.jpg"><h3>TISSOT</h3><p>Men | Coutura</p><strong>₹66500</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/n/j/nj0150-81x_1.jpg"><h3>CITIZEN</h3><p>Men | KINGS</p><strong>₹38900</strong></div>
+          <div class="watch-card"><img src="https://static.helioswatchstore.com/media/catalog/product/3/6/3601075_1.jpg"><h3>MOVADO</h3><p>Men | KINGS</p><strong>₹59625</strong></div>
+        </div>
+        <button class="scroll-btn right" onclick="scrollCarousel('men', 1)">&#10095;</button>
+      </div>
+  
+      <!-- Women Carousel (Initially Hidden) -->
+      <div class="watch-carousel-container hidden" id="carousel-women">
+        <button class="scroll-btn left" onclick="scrollCarousel('women', -1)">&#10094;</button>
+        <div class="watch-carousel" id="carousel-women-track">
+          <!-- Add your women's watches here -->
+          <div class="watch-card"><img src="watch1.png"><h3>ROLEX</h3><p>Women | Rose</p><strong>₹102000</strong></div>
+          <div class="watch-card"><img src="watch2.png"><h3>OMEGA</h3><p>Women | Classic</p><strong>₹85000</strong></div>
+          <div class="watch-card"><img src="watch3.png"><h3>GUCCI</h3><p>Women | G-Frame</p><strong>₹65000</strong></div>
+        </div>
+        <button class="scroll-btn right" onclick="scrollCarousel('women', 1)">&#10095;</button>
+      </div>
+  
+    </section>
+
+    <section class="watch-brand-feature">
+        <!-- Background decorative elements -->
+        <div class="brand-feature-bg"></div>
+        <div class="brand-feature-bg"></div>
+        
+        <div class="brand-feature-container">
+            <!-- Brand selection area -->
+            <div class="brand-selector">
+                <div class="brand-feature-heading">
+                    <h2>DISCOVER OUR BRANDS</h2>
+                    <p>Browse our curated collection of luxury timepieces from the world's most prestigious watchmakers.</p>
+                </div>
+                
+                <div class="brand-logos" id="brand-logos">
+                    <!-- Brand logos will be dynamically inserted here -->
+                </div>
+            </div>
+            
+            <!-- Watch showcase area -->
+            <div class="watch-showcase">
+                <div class="watch-display">
+                    <img id="watch-image" src="" alt="Luxury watch" class="active">
+                    <!-- Additional images would be added dynamically and toggled with active class -->
+                </div>
+                
+                <div class="watch-info" id="watch-info">
+                    <h3>ROLEX SUBMARINER</h3>
+                    <p>The Rolex Submariner is a classic dive watch known for its durability, precision, and timeless design.</p>
+                    <div class="price">₹895,000</div>
+                    <button class="cta-button">EXPLORE COLLECTION</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- watch-grid -->
+    <section class="watch-grid-container">
+        <h1>MOVEMENT IN TIME</h1>
+        
+        <div class="watch-grid">
+            <div class="watch-item main-watch">
+                <img src="/Users/bankimkamila/html/ecommer/media/image/Banner-Omega-Speedmaster-3861-Caseback_1100x.webp" alt="Titan Mechanical Watch">
+                <div class="watch-label">
+                    <h3>MECHANICAL</h3>
+                    <p>Precision engineering with visible movement</p>
+                </div>
+            </div>
+            
+            <div class="watch-item">
+                <img src="/Users/bankimkamila/html/ecommer/media/image/90110WL03_1.jpg" alt="Titan Automatic Watch">
+                <div class="watch-label">
+                    <h3>AUTOMATIC</h3>
+                    <p>Self-winding sophistication</p>
+                </div>
+            </div>
+            
+            <div class="watch-item">
+                <img src="/Users/bankimkamila/html/ecommer/media/image/TW2W44800_Beauty_QTimex_1978_02_RGB_1_2.png" alt="Titan Quartz Watch">
+                <div class="watch-label">
+                    <h3>QUARTZ</h3>
+                    <p>Battery-powered accuracy</p>
+                </div>
+            </div>
+            
+            <div class="watch-item">
+                <img src="/Users/bankimkamila/html/ecommer/media/image/JR1401_9L.png .png" alt="Titan Chronograph Watch">
+                <div class="watch-label">
+                    <h3>CHRONOGRAPH</h3>
+                    <p>Precise timekeeping with stopwatch</p>
+                </div>
+            </div>
+            
+            <div class="watch-item">
+                <img src="/Users/bankimkamila/html/ecommer/media/image/95292WM01_6.png" alt="Titan Smart Watch">
+                <div class="watch-label">
+                    <h3>SMART</h3>
+                    <p>Connected technology for modern life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2 class="footer-heading">COLLECTIONS</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Titan Automatics</a></li>
+                    <li><a href="#">Police Batman</a></li>
+                    <li><a href="#">Stellar</a></li>
+                    <li><a href="#">Raga Power Pearls</a></li>
+                    <li><a href="#">Nebula Jewels</a></li>
+                    <li><a href="#">Grandmaster</a></li>
+                    <li><a href="#">Maritime</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h2 class="footer-heading">CUSTOMER SERVICE</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Encircle Program</a></li>
+                    <li><a href="#">Find Titan World Stores</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h2 class="footer-heading">CONTACT US</h2>
+                <ul class="footer-links">
+                    <li><a href="#">1800-266-0123</a></li>
+                    <li><a href="#">customercare@titan.co.in</a></li>
+                    <li><a href="#">Help & Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h2 class="footer-heading">ABOUT TITAN</h2>
+                <ul class="footer-links">
+                    <li><a href="#">Brand Protection</a></li>
+                    <li><a href="#">Corporate</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <div class="app-download">
+                    <h3>Download Titan World App</h3>
+                    <div class="app-buttons">
+                        <img src="/api/placeholder/120/40" alt="App Store">
+                        <img src="/api/placeholder/120/40" alt="Google Play">
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h3>Follow Us With</h3>
+                    <div class="social-icons">
+                        <a href="#"><span>f</span></a>
+                        <a href="#"><span>ig</span></a>
+                        <a href="#"><span>X</span></a>
+                        <a href="#"><span>▶</span></a>
+                    </div>
+                </div>
+                
+                <div class="chat-section">
+                    <div class="chat-button">
+                        <span>Want Help? Click Here To Chat With Us On</span>
+                        <span>○</span>
+                    </div>
+                    <div class="hours">
+                        Operating Hours: 10:00AM To 10:00PM<br>
+                        Monday To Sunday
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="payment-section">
+            <div class="footer-container">
+                <div class="payment-icons">
+                    <img src="/api/placeholder/40/25" alt="Visa">
+                    <img src="/api/placeholder/40/25" alt="Mastercard">
+                    <img src="/api/placeholder/40/25" alt="PayPal">
+                    <img src="/api/placeholder/40/25" alt="AmEx">
+                    <img src="/api/placeholder/40/25" alt="Diners">
+                    <img src="/api/placeholder/40/25" alt="RuPay">
+                    <img src="/api/placeholder/40/25" alt="UPI">
+                    <img src="/api/placeholder/40/25" alt="Net Banking">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="copyright">
+                <div>© 2025 Titan Company Limited. All Rights Reserved.</div>
+                <div class="footer-links-bottom">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Wearable Privacy Policy</a>
+                    <a href="#">Warranty Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
